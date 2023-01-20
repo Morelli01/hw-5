@@ -63,7 +63,7 @@ ol {
 
 .header {
     border-bottom: 1px solid #E7E9FC;
-    background-color: #ffff;
+    cckground-color: #ffff;
     padding-top: 25px;
     padding-bottom: 25px;
 }
@@ -222,8 +222,8 @@ a {
     margin: 0 auto;
     display: block;
     border-radius: 4px;
-    min-width: 160px;
-    height: 40px;
+    min-width: 169px;
+    min-height: 56px;
     color: #ffff;
     background-color: #4D5AE5;
     padding: 0;
@@ -465,6 +465,7 @@ img {
     border: 1px solid #8e8f99;
     fill: #8e8f99;
     border-radius: 4px;
+    transition: var(--transition);
 }
 
 .customers-link:hover,
